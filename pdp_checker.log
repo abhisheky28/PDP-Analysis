@@ -1,0 +1,33 @@
+2025-11-10 19:44:24,171 - INFO - --- Starting PDP Sheet Automator Script (V2) ---
+2025-11-10 19:44:24,171 - INFO - Connecting to Google Sheets API...
+2025-11-10 19:44:24,251 - INFO - Successfully connected to Google Sheets API.
+2025-11-10 19:44:27,381 - INFO - Preparing sheet 'PDPs'...
+2025-11-10 19:44:28,271 - INFO - Last tracking data found in column 1620. Inserting new column at index 1621.
+2025-11-10 19:44:30,001 - INFO - Successfully inserted new column.
+2025-11-10 19:44:31,231 - INFO - Wrote today's date '10-Nov-2025' to row 2, column 1621.
+2025-11-10 19:44:31,231 - INFO - Fetching queries from range: D4:D32
+2025-11-10 19:44:31,781 - INFO - Found 29 queries to process.
+2025-11-10 19:44:31,783 - INFO - Initializing non-headless Chrome WebDriver...
+2025-11-10 19:44:31,783 - INFO - ====== WebDriver manager ======
+2025-11-10 19:44:34,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-10 19:44:34,859 - INFO - Get LATEST chromedriver version for google-chrome
+2025-11-10 19:44:35,541 - INFO - Driver [C:\Users\Abhishek Yadav\.wdm\drivers\chromedriver\win64\142.0.7444.61\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-10 19:44:37,886 - INFO - 
+--- Processing query 1/29: 'site:https://www.myntra.com' for row 4 ---
+2025-11-10 19:44:55,571 - INFO - Clicked 'Tools' button.
+2025-11-10 19:44:56,642 - INFO - Scraped result: '72,00,000'
+2025-11-10 19:44:57,142 - INFO - SUCCESS: Updated cell in row 4, column 1621.
+2025-11-10 19:45:06,671 - INFO - 
+--- Processing query 2/29: 'site:https://www.myntra.com inurl:/buy' for row 5 ---
+2025-11-10 19:45:19,637 - INFO - Clicked 'Tools' button.
+2025-11-10 19:45:20,691 - INFO - Scraped result: '65,20,000'
+2025-11-10 19:45:21,181 - INFO - SUCCESS: Updated cell in row 5, column 1621.
+2025-11-10 19:45:30,585 - INFO - 
+--- Processing query 3/29: 'site:https://www.myntra.com inurl:/buy -inurl:utm_source -inurl:src -inurl:pdp -inurl:src -inurl:up= -inurl=serp -inurl=pdp_imagetemp=' for row 6 ---
+2025-11-10 19:45:55,175 - INFO - Clicked 'Tools' button.
+2025-11-10 19:45:56,230 - INFO - Scraped result: '64,80,000'
+2025-11-10 19:45:56,812 - INFO - SUCCESS: Updated cell in row 6, column 1621.
+2025-11-10 19:46:08,700 - INFO - 
+--- Processing query 4/29: 'site:https://www.myntra.com inurl:/buy?utm_source' for row 7 ---
+2025-11-10 19:46:18,580 - INFO - Closing WebDriver.
+2025-11-10 19:46:18,616 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/63109fc12b6befbeebaa6b5f9c12d29a
